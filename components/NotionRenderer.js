@@ -2,9 +2,9 @@ import { createElement as h } from 'react'
 import dynamic from 'next/dynamic'
 import { NotionRenderer as Renderer } from 'react-notion-x'
 import { getTextContent } from 'notion-utils'
-import { FONTS_SANS, FONTS_SERIF } from '@/consts'
-import { useConfig } from '@/lib/config'
-import Toggle from '@/components/notion-blocks/Toggle'
+import { FONTS_SANS, FONTS_SERIF } from '../consts'
+import { useConfig } from '../lib/config'
+import Toggle from '../components/notion-blocks/Toggle'
 
 // Lazy-load some heavy components & override the renderers of some block types
 const components = {
@@ -17,7 +17,7 @@ const components = {
         case 'Mermaid':
           return h(
             dynamic(() => {
-              return import('@/components/notion-blocks/Mermaid').then(module => module.default)
+              return import('../components/notion-blocks/Mermaid').then(module => module.default)
             }, { ssr: false }),
             props
           )
