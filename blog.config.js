@@ -1,7 +1,7 @@
 const BLOG = {
   title: "MARVEL",
-  author: "TEAM MARVEL",
-  email: "i@marvel.net",
+  author: "ADEOTI PRAISE",
+  email: "praiseadeoti99@gmail.com",
   link: "https://nobelium.vercel.app",
   description: "This gonna be an awesome website.",
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
