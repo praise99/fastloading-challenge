@@ -1,5 +1,5 @@
 # fastloading-challenge
-https://encentral-fastloading-challenge.vercel.app/
+[https://encentral-fastloading-challenge.vercel.app/](https://fastloading-challenge.vercel.app/)
 
 run using `turbo dev`
 <!-- ## To run with Turbo
